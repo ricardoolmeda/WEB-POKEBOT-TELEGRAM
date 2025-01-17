@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+    <nav class="nav-header">
+        <div class="imagen-logo">
+            <a href="index.html">
+                <img src="imagenes/log1.png" alt="logo" height="32px">
+            </a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="https://web.telegram.org/k/#@CalculadoraPokemon_bot">Go to BOT</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+        <div class="login"><a href="#login">Login</a></div>
+    </nav>
+
+    <main class="main-quiz">
+        <header>
+            <h1>Quiz of Pokemon</h1>
+            <div>
+                <p>Time out</p>
+                <p>30</p>
+            </div>
+        </header>
+
+        <section>
+            <h2 id="question">Question 1</h2>
+
+            <div id="answerBox">
+                <!-- Respuestas generadas aquí -->
+            </div>
+
+        </section>
+
+        <footer>
+            <p id="infoQuestion">Pregunta 1 de 5</p>
+            <button onclick="nextQuestion()">Next</button>
+        </footer>
+    </main>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, rgb(15, 23, 42), rgb(88, 28, 135), rgb(15, 23, 42));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Navegador */
+.nav-header {
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.imagen-logo {
+    padding-top: 3px;
+}
+
+.nav-header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.nav-header ul li {
+    margin: 0 15px;
+}
+
+.nav-header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-header ul li a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    font-weight: bold;
+    color: #7e7e7e;
+    background: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+.login a {
+    text-decoration: none;
+    color: #7e7e7e;
+}
+
+.login a:hover {
+    text-decoration: underline;
+    color: #5f5f7c;
+}
+
+/* Main Quiz */
+.main-quiz {
+    background-color: #f3d9ff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #0000001a;
+    width: 400px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 60px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #830cc4;
+    padding-bottom: 10px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 18px;
+    margin: 0;
+}
+
+header div p {
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+section {
+    margin-top: 20px;
+}
+
+section h2 {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+}
+
+section div button {
+    background-color: #c263f9;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+section div button:hover {
+    background-color: #d58cfc;
+    border-color: #dddddd;
+    color: #e5b3fe;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #830cc4;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer button {
+    background-color: #830cc4;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: #e5b3fe;
+}
+
+/* Estilos para botones de respuesta */
+button.correct {
+    background-color: #22C55E; 
+}
+
+button.incorrect {
+    background-color: #EF4444; 
+}
