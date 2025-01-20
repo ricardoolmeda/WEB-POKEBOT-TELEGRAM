@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, rgb(15, 23, 42), rgb(88, 28, 135), rgb(15, 23, 42));
+    background-image: url("imagenes/fondo2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,4 +169,40 @@ button.correct {
 
 button.incorrect {
     background-color: #EF4444; 
+}
+
+/* Footer */
+
+.footer_quiz {
+    background-color: #483285;
+    position: fixed;
+    bottom: 0;
+    margin-top: 40px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #3a1e85;
+}
+
+.footer_content {
+    margin: 0 auto;
+}
+
+.footer_quiz ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer_quiz ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer_quiz a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer_quiz a:hover {
+    text-decoration: underline;
 }

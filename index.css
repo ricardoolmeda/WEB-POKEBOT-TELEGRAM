@@ -1,9 +1,11 @@
 body {
     font-family: Arial, sans-serif;
     display: block;
-    background: linear-gradient(to right, rgb(15, 23, 42), rgb(88, 28, 135), rgb(15, 23, 42));
-    margin: 0;
-    padding: 0;
+    background-image: url("imagenes/fondo2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+
     color: #fff;
 }
 
@@ -12,8 +14,8 @@ body {
     display: flex;
     color: #fff;
     justify-content: space-around;
-    margin-top: 30px;
     align-items: center;
+    margin-top: 00px;
 }
 
 .imagen-logo {
@@ -66,10 +68,8 @@ body {
 }
 
 /* Main */
-.main {
-    margin: 30hv;
 
-}
+
 
 /* Boton */
 
@@ -116,9 +116,43 @@ body {
     align-items: center;
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 100px;
     font-size: 20px;
 }
 
 .section-2 div {
     margin: 30px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #483285;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #3a1e85;
+}
+
+.footer-content {
+    margin: 0 auto;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
