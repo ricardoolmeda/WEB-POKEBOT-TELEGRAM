@@ -1,68 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="quiz.css">
-</head>
-
-<body>
+    <link rel="stylesheet" href="quiz.css" />
+  </head>
+  <body>
     <nav class="nav-header">
-        <div class="imagen-logo">
-            <a href="index.html">
-                <img src="imagenes/log1.png" alt="logo" height="32px">
-            </a>
-        </div>
-        <div>
-            <ul>
-                <li><a href="https://web.telegram.org/k/#@CalculadoraPokemon_bot">Go to BOT</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="quiz.html">Quiz</a></li>
-                <li><a href="support.html">Support</a></li>
-            </ul>
-        </div>
-        <div class="login"><a href="#login">Login</a></div>
+      <div class="imagen-logo">
+        <a href="index.html">
+          <img src="imagenes/log1.png" alt="logo" height="32px" />
+        </a>
+      </div>
+      <div>
+        <ul>
+          <li><a href="https://web.telegram.org/k/#@CalculadoraPokemon_bot">Go to BOT</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="support.html">Support</a></li>
+        </ul>
+      </div>
+      <div class="login"><a href="#login">Login</a></div>
     </nav>
 
     <main class="main-quiz">
-        <header>
-            <h1>Quiz of Pokemon</h1>
-            <div>
-                <p>Time out</p>
-                <p>30</p>
-            </div>
-        </header>
+      <header>
+        <h1>Quiz de Geografía</h1>
+        <div>
+          <p>Tiempo</p>
+          <p id="txtTimer">30</p>
+        </div>
+      </header>
 
-        <section>
-            <h2 id="question">Question 1</h2>
+      <div>
+        <div id="progressBar"></div>
+      </div>
 
-            <div id="answerBox">
-                <!-- Respuestas generadas aquí -->
-            </div>
+      <section>
+        <h2 id="question">Question 1</h2>
+        <div id="answerBox">
+          <!-- Respuestas generadas aquí -->
+        </div>
+      </section>
 
-        </section>
-
-        <footer>
-            <p id="infoQuestion">Pregunta 1 de 5</p>
-            <button onclick="nextQuestion()">Next</button>
-        </footer>
+      <footer>
+        <p id="infoQuestion">Pregunta 1 de 5</p>
+        <button id="btnNext" onclick="nextQuestion()">Next</button>
+      </footer>
     </main>
 
     <footer class="footer_quiz">
-        <div class="footer_content">
-            
-            <ul>
-                <li><a href="discover.html">Commands</a></li>
-                <li><a href="privacy.html">Privacy Policy</a></li>
-                <li><a href="terms.html">Terms of Service</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="discover.html">Commands</a></li>
-            </ul>
-            <p>&copy; 2025 PokeBot. All rights reserved.</p>
-        </div>
+      <div class="footer_content">
+        <ul>
+          <li><a href="discover.html">Commands</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <p>&copy; 2025 PokeBot. All rights reserved.</p>
+      </div>
+    </footer>
 
     <script src="quiz.js"></script>
-</body>
+  </body>
 </html>
